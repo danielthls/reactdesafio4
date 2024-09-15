@@ -1,0 +1,17 @@
+.de4-product-card {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--de4-color-bg-secondary);
+    border-radius: 5px;
+}
+
+.de4-product-name {
+    font-size: 12px;
+    color: var(--de4-color-font-tertiary);
+}
+
+.de4-product-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--de4-color-font-primary);
+}

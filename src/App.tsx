@@ -1,6 +1,7 @@
 import './App.css'
 import Filter from './components/Filter'
 import Header from './components/Header'
+import Listing from './components/Listing'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <main>
         <Filter />
-        <div className='de4-container de4-main'>texto</div>
+        <Listing />
       </main>
     </>
   )
