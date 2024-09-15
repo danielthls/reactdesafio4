@@ -1,0 +1,18 @@
+.de4-header {
+    display: flex;
+    align-items: center;
+    background-color: var(--de4-color-bg-secondary);
+    height: 70px;
+    color: var(--de4-color-font-secondary);
+}
+
+.de4-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

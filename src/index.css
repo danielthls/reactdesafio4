@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --de4-color-bg-primary: #C2C2C2;
+  --de4-color-bg-secondary: #55BC04;
+  --de4-color-bg-tertiary: #fff;
+
+  --de4-color-card-bg: #fff;
+  --de4-color-card-border: #55BC04;
+
+  --de4-color-font-primary: #55BC04;
+  --de4-color-font-secondary: #fff;
+  --de4-color-font-tertiary: #6F6F6F;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--de4-color-bg-primary);
+}
+
+main {
+  padding: 0 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* generic styles */
+
+.de4-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.de4-mb20 {
+  margin-bottom: 20px;
+}
+
+.de4-mt20 {
+  margin-top: 20px;
+}
