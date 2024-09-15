@@ -1,0 +1,30 @@
+.de4-filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.de4-filter-form input {
+    height: 40px;
+    width: 200px;
+    border: solid 1px var(--de4-color-input-border);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.de4-filter-form input::placeholder {
+    color: var(--de4-color-input-placeholder);
+}
+
+.de4-filter-form button {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: var(--de4-color-bg-secondary);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--de4-color-font-secondary);
+    cursor: pointer;
+}

@@ -5,8 +5,8 @@
   --de4-color-bg-secondary: #55BC04;
   --de4-color-bg-tertiary: #fff;
 
-  --de4-color-card-bg: #fff;
-  --de4-color-card-border: #55BC04;
+  --de4-color-input-border: #C2C2C2;
+  --de4-color-input-placeholder: #C2C2C2;
 
   --de4-color-font-primary: #55BC04;
   --de4-color-font-secondary: #fff;
@@ -33,7 +33,10 @@ body {
 }
 
 main {
-  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
 
 /*-----------------------------------------------------------------*/
@@ -43,6 +46,11 @@ main {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.de4-main {
+  background-color: var(--de4-color-bg-tertiary);
+  padding: 20px;
 }
 
 .de4-mb20 {
