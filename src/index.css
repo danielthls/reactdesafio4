@@ -51,6 +51,7 @@ main {
 .de4-main {
   background-color: var(--de4-color-bg-tertiary);
   padding: 20px;
+  border-radius: 5px;
 }
 
 .de4-mb20 {

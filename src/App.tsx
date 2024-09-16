@@ -1,17 +1,13 @@
 import './App.css'
-import Filter from './components/Filter'
 import Header from './components/Header'
-import Listing from './components/Listing'
+import ListingBody from './components/ListingBody'
 
 function App() {
 
   return (
     <>
       <Header />
-      <main>
-        <Filter />
-        <Listing />
-      </main>
+      <ListingBody />
     </>
   )
 }
